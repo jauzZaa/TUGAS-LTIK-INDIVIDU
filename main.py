@@ -52,10 +52,25 @@ for i in angka:
         continue
     print(i)
 
-    # #fungsi range
-    # for i in range[10, 0, -1]
+#Fungsi range
+print("\n=== PERULANGAN RANGE ===")
+for i in range(10, 0, -1):
+    print("Angka:", i)
 
-    #fungsi nested
+#Fungsi nested loop
+print("\n=== NESTED LOOP ===")
+for i in range(1, 4):
+    for j in range(1, 4):
+        print("*", end=" ")
+    print()
 
-    #if else di loop
-    
+#Fungsi if else di dalam loop
+print("\n=== MENENTUKAN BILANGAN GANJIL DAN GENAP ===")
+angka = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+for i in angka:
+    if i % 2 == 0:
+        print(i, "adalah bilangan genap")
+    else:
+        print(i, "adalah bilangan ganjil")
+
